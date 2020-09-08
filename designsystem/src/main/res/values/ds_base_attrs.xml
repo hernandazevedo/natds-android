@@ -124,6 +124,7 @@
 
     <!-- Dialog references -->
     <attr name="dialogStandardTheme" format="reference"/>
+    <attr name="dialogAlertTheme" format="reference"/>
 
     <!-- Shortcut references -->
     <attr name="shortcutOutlined" format="reference"/>

@@ -23,6 +23,12 @@
         <item name="android:layout_marginStart">?spacingMicro</item>
     </style>
 
+    <style name="Theme.DS.Dialog.Alert" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.DS.Button.TextButton.V23</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.DS.Button.TextButton.V23</item>
+        <item name="android:windowBackground">@drawable/dialog_standard_background</item>
+    </style>
+
     <!-- TYPOGRAPHY STYLES -->
     <style name="Heading1" parent="TextAppearance.MaterialComponents.Headline1">
         <item name="fontFamily">@string/font_roboto_regular</item>
